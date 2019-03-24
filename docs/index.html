@@ -1,275 +1,450 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="codepixer">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Book</title>
 
-<!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>Osmibity</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">					
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>
 
-      <script src='./js/jquery-1.11.0.min.js' type='text/javascript'></script>
-      <script src='./js/bootstrap.min.js' type='text/javascript'></script>
-      <link rel='stylesheet' href='./css/bootstrap.css' type='text/css' media='screen'/>
-      <link rel='stylesheet' href='./css/font-awesome.min.css' type='text/css' media='screen'/>
-      <style type="text/css">
-        @media all and (min-width: 966px) {
-          html, body {
-            padding-top: 30px;
-          }
-        }
-        .navbar-inverse .navbar-toggle {
-          border: 0 none;
-        }
-        .thumbnail {
-        	background-color: #ededed;
-        }
-        .thumbnail h3 {
-        	color: #000;
-        }
-        pre {
-  color: #fcfcfc;
-  background-color: #000084;
-  border:0;
-}
-.container-fluid .row a {background-color:#8484ff;color:#fff;}
-      </style>
-    </head>
-    <body data-spy="scroll" data-target=".bs-docs-sidebar">
-      <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Navigace</span>
-              ≡
-            </button>
-            <a class="navbar-brand" href="/">Osmibity</a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li data-page="home">
-                <a href="#home">Home</a>
-              </li>
-              <li data-page="software">
-                <a href="#software">Software</a>
-              </li>
-              <li data-page="omen">
-                <a href="https://omenmicro.eu/">OMEN</a>
-              </li>
-              <li data-page="kniha">
-                <a href="#kniha">Kniha</a>
-              </li>
-            </ul>
-          </div>
+			  <header id="header" id="home">
+			    <div class="container">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active"><a href="#home">Úvod</a></li>
+				          <li><a href="#about">Autor</a></li>
+				          <li><a href="#summary">Obsah</a></li>
+				          <li><a href="#errata">Errata</a></li>
+				          <li><a href="#parts">Součástky</a></li>
+				          <li><a href="#addons">Dodatky</a></li>
+				          <li><a href="#testimonial">Kniha</a></li>
+				          <li><a href="https://www.asm80.com/">Assembler <i class="fas fa-external-link-alt"></i></a></li>
+				          <li><a href="https://omenmicro.eu/">Konstrukce <i class="fas fa-external-link-alt"></i></a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">	
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-start">
+						<div class="banner-content col-lg-7">
+							<h5 class="text-white text-uppercase">Martin Malý</h5>
+							<h1 class="text-uppercase">
+								Porty, bajty, osmibity				
+							</h1>
+							<p class="text-white pt-20 pb-20">
+                Jak fungují, jak se navrhují a jak se programují<br>
+                počítače s procesory 8085, 65C02 a 6809
+							</p>
+							<a href="https://knihy.nic.cz/" target="_blank" class="primary-btn text-uppercase">Koupit</a>
+						</div>
+						<div class="col-lg-5 banner-right">
+							<img class="img-fluid" src="img/header-img.png" alt="">
+						</div>												
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+			<!-- Start about Area -->
+			<section class="section-gap info-area" id="about">
+				<div class="container">				
+					<div class="single-info row mt-40 align-items-center">
+						<div class="col-lg-6 col-md-12 text-center no-padding info-left">
+							<div class="info-thumb">
+								<img src="img/about-img.jpg" class="img-fluid info-img" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 no-padding info-rigth">
+							<div class="info-content">
+								<h2 class="pb-30">Martin Malý</h2>
+								<p>
+                    Martin Malý (známý též pod přezdívkou Arthur Dent či Adent) je český programátor, bloger, publicista a komentátor. 
+                    V roce 2003 naprogramoval a spustil veřejnou blogovací službu Bloguje.cz, od roku 2007 psal pravidelný sloupek 
+                    pro Digiweb - součást webu iHNed.cz. 
+                    Později pracoval na pozici šéfredaktora webového magazínu Zdroják (vydávala společnost Internet Info, s.r.o.). 
+                    V březnu 2013 nastoupil do vydavatelství Economia na pozici vedoucího týmu redakčních vývojářů iHNed.cz, 
+                    kam se v roce 2017 vrátil na pozicizástupce šéfredaktora iHNed pro inovace.
+                </p><p>
+                    Od roku 2015 popularizuje Internet věcí a DIY elektroniku, přednáší o těchto oborech a školí zájemce o platformu Arduino.
+                    Za svou popularizační činnost byl v roce 2016 nominován v anketě Křišťálová Lupa, v kategorii One (wo)man show. 
+                    V roce 2018 vydal ve spolupráci s vydavatelstvím Edice CZ.NIC knihu <a href="https://elektrokniha.cz/">Hradla, volty, jednočipy - úvod do bastlení</a>.
+                  </p><p>                     
+                    Elektronika je jeho koníčkem už od dětství. Nejraději má staré osmibitové počítače z osmdesátých let 20. století – 
+                    vlastní jich několik desítek a stále je jimi fascinován natolik, že si staví jejich repliky a programuje jejich emulátory. 
+                    Ve spolupráci se sdružením CZ.NIC přednáší v kurzu „Arduino pro učitele“.
+                </p>
+                <div class="button-group-area mt-40">
+                    <a href="https://github.com/osmibity/" class="genric-btn default circle ">GitHub <i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/retrocip/" class="genric-btn primary circle">Twitter <i class="fab fa-twitter"></i></a>
+                    <a href="#" class="genric-btn success circle">Facebook <i class="fab fa-facebook"></i></a>
+                    <a href="" class="genric-btn info circle">LinkedIn <i class="fab fa-linkedin"></i></a>
+                </div>
+                </div>
+						</div>
+					</div>
+				</div>
+			</section>
+      <!-- End about Area -->
+      
+      			<!-- Start call-to-action Area -->
+			<section class="call-to-action-area section-gap">
+          <div class="container">
+            <div class="row justify-content-center top">
+              <div class="col-lg-12">
+                <h1 class="text-white text-center">Obsah</h1>
+              </div>
+            </div>
+            <div class="row top justify-content-center">
+                <ul class="unordered-list text-white">
+                  <li>Slavné osmibity z 80. let</li>
+                  <li>Osmibitové procesory</li>
+                  <li>Konstrukce počítačů</li>
+                  <li>Periferie</li>
+                  <li>Osmibitové počítače OMEN
+                    <ul>
+                      <li>OMEN Alpha
+                        <ul>
+                          <li>Architektura 8080</li>
+                          <li>Architektura 8085</li>
+                          <li>Návrh jednodeskového počítače</li>
+                          <li>Sériové rozhraní 6850, paralelní rozhraní 8255</li>
+                          <li>Programování v assembleru 8085</li>
+                        </ul>
+                      </li>
+                      <li>OMEN Bravo
+                        <ul>
+                          <li>Architektura 65C02</li>
+                          <li>Návrh jednodeskového počítače</li>
+                          <li>Sériové rozhraní 6551, paralelní rozhraní 6522</li>
+                          <li>Programování v assembleru 65C02</li>
+                        </ul>
+                      </li>
+                      <li>OMEN Charlie
+                          <ul>
+                            <li>Emulace osmibitu pomocí Arduina</li>
+                          </ul>
+                        </li>
+                        <li>OMEN Delta
+                            <ul>
+                              <li>Architektura Z80</li>
+                              <li>Koncepce počítače</li>
+                            </ul>
+                        </li>
+                        <li>OMEN Kilo
+                            <ul>
+                              <li>Architektura 6809</li>
+                              <li>Návrh jednodeskového počítače</li>
+                              <li>Programování v assembleru 6809</li>
+                            </ul>
+                          </li>  
+                    </ul>
+                  </li>
+                  <li>Jak se generuje zvuk</li>
+                  <li>Jak se generuje obraz</li>
+                  <li>Jak se vyrovnat s nadbytkem paměti</li>
+                </ul>
+              </div>
+          </div>	
+        </section>
+        <!-- End call-to-action Area -->
+		
+			<!-- Start errata Area -->
+			<section class="price-area section-gap" id="errata">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Opravy</h1>
+								<p>Pro případ, že by v knize byla i přes veškerou péči nějaká nepřesnost.</p>
+							</div>
+						</div>
+          </div>						
         </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
+			</section>
+			<!-- End price Area -->
 
-          <div class="col-sm-9 page" data-page="home">
-            
-            <div class="hero-unit">
-              <h1>Porty, bajty, osmibity</h1>
-              <h2>Počítače na koleni</h2>
-              <p>Když jsem přemýšlel o tom, jak pojmout svou další knihy, bylo mi jasné, že suchý výklad nebude stačit. Tedy, on by stačil, ale já nejsem zrovna příznivcem teoretických učebnic bez přesahu do praxe. Bylo tedy samozřejmé, že nějakou konstrukci chci.</p>
+			<!-- Start parts Area -->
+			<section class="fact-area relative section-gap" id="parts">
+          <div class="overlay overlay-bg"></div>
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="menu-content pb-40 col-lg-8">
+                <div class="title text-center">
+                  <h1 class="mb-10">Sady součástek a desky plošných spojů</h1>
+                  <p>Omezené množství má k dispozici autor.</p>
+                  <div class="button-group-area mt-40">
+                      <a href="#" class="genric-btn default circle">Aukro <i class="fab fa-facebook"></i></a>
+                      <a href="" class="genric-btn default circle">Tindie <i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <div class="button-group-area mt-40">
+                      <a href="#" class="genric-btn default circle">AliExpress <i class="fab fa-alipay"></i></a>
+                      <a href="" class="genric-btn default circle">eBay <i class="fab fa-ebay"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>						
+          </div>	
+        </section>
+        <!-- End fact Area -->      
 
-              <p>Ano, můžu vzít nějaký reálný osmibit a ukazovat na něm, jak se věci mají, možná vás i ponouknout ke stavbě repliky, ale touto cestou se mi moc jít nechtělo. Říkám si, že na vlastní konstrukci, která bude tak jednoduchá, jak jen to lze, půjde ilustrovat požadované věci mnohem líp.</p>
-
-              <p>Zvolil jsem tedy cestu konstrukce naprosto jednoduchých počítačů, které mají splňovat několik bodů:</p>
-              <ul><li>Budou používat součástky, které se dají běžně koupit.</li>
-              <li>Nebudou se ortodoxně držet konstrukcí z 80. let - tedy když chci použít paměť, použiju moderní 128x8bit statickou RAM, což je jeden čip, a nebudu konstruovat zapojení z osmi čipů dynamické RAM a dalších tří IO kolem dokola.</li>
-              <li>Budou v duchu starých osmibitových časů, tedy jednoduché periferie - klávesnice, displej, reproduktor - a minimální softwarové vybavení.</li>
-              <li>Bude jednoduché psát pro ně software.</li>
-              <li>Klidně vynechám samotný starý procesor a potřebné funkce si naemuluju v moderním jednočipu. Nebo použiju jednočip místo periferií. No stress.</li>
+			<!-- Start addons Area -->
+			<section class="course-area section-gap" id="addons">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-9">
+							<div class="title text-center">
+								<h1 class="mb-10">Dodatky</h1>
+								<h2 class="mb-10">Čipy, data, procesory</h2>
+								<p>Co se do knihy nevešlo a bylo by škoda to vynechat...</p>
+							</div>
+						</div>
+          </div>				
+          <div class="row top justify-content-center">
+              <ul class="unordered-list list-unstyled">
+                <li>Krystalové oscilátory</li>
+                <li>Jak se generuje obraz</li>
+                <li>Jak se vyrovnat s nadbytkem paměti</li>
+                <li>FPGA</li>
+                <li>VHDL</li>
+                <li>OMEN Alpha ve FPGA</li>
+                <li>OMEN Foxtrot<ul>
+                  <li>Generování VGA</li>
+                  <li>Čtení PS/2 klávesnice</li>
+                  <li>Konstrukce</li>
+                </ul></li>
+                <li>Vlastní mikroprocesor ve VHDL</li>
+                <li>Z historie mikroprocesorů</li>
+                <li>Procesor 6309 - vylepšený 6809<ul>
+                  <li>Co bylo přidáno</li>
+                  <li>Jak se programuje</li>
+                </ul></li>
+                <li>Procesor 65816 - 6502 v šestnácti bitech<ul>
+                    <li>Co bylo přidáno</li>
+                    <li>Jak se programuje</li>
+                  </ul></li>
+                <li>... a další témata</li>
               </ul>
-              <p>A maje tyto body na paměti jsem sednul a připravil několik konstrukcí, které jsou vhodné pro začátečníky - a tak vznikla "značka OMEN".</p>
-          </div>
-          <div class='row-fluid'>
-          	<div class="span12">
-              <pre>
- _______ _______ _______ _______    _______ _ _______ ______ _______ 
-(_______|_______|_______|_______)  (_______) (_______|_____ (_______)
- _     _ _  _  _ _____   _     _    _  _  _| |_       _____) )     _ 
-| |   | | ||_|| |  ___) | |   | |  | ||_|| | | |     |  __  / |   | |
-| |___| | |   | | |_____| |   | |  | |   | | | |_____| |  \ \ |___| |
- \_____/|_|   |_|_______)_|   |_|  |_|   |_|_|\______)_|   |_\_____/ 
-                                                                     
-</pre>
-              <h3>Odkazy na Hackster.io (anglicky)</h3>
-                  <ul>
-                      <li><a href='https://www.hackster.io/adent/omen-alpha-77f86b'>OMEN ALPHA</a></li>
-                      <li><a href='https://www.hackster.io/adent/omen-bravo-308a27'>OMEN BRAVO</a></li>
-                      <!--li><a href='metropolitan.grp'>OMEN CHARLIE</a></li-->
-                  </ul>
-          	</div>
-          </div>
-
-          </div>
-
-          <div class="col-sm-9 page" data-page="software" style="display:none">
-            
-            <div class="hero-unit">
-              <h1>Software</h1>
-              <p>Software a další dokumentaci naleznete na oficiálním <a href="https://github.com/omenmicro/">GitHubu Omen Micro</a>.</p>
-          </div>
-
-            
-          </div>
-
-
-
-
-
-
-
-
-          <div class='col-sm-3'>
-            <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseHelp">
-                      <span class="fa fa-plus-square-o"></span> Informace
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseHelp" class="panel-collapse collapse in">
-                  <div class="panel-body">
-                    
-                      <p>Work in progress<p>
-                      <a class="btn btn-primary btn-block" role="button" href="https://gist.github.com/jasonsperske/31324a0cdffd8edf9683">Download</a></p>
-                    
-                  </div>
-                </div>
-              </div>
             </div>
-            
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseContact">
-                      <span class="fa fa-plus-square-o"></span> Kde mě najdete
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseContact" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a class="btn btn-block btn-danger" href="http://jason.sperske.com"><i class="fa fa-user"></i> Portfolio</a>
-                    <a class="btn btn-block btn-danger" href="http://stackoverflow.com/users/16959/jason-sperske"><i class="fa fa-stack-overflow"></i> StackOverflow</a>
-                    <a class="btn btn-block btn-danger" href="https://github.com/jasonsperske"><i class="fa fa-github"></i> Github</a>
-                    <a class="btn btn-block btn-danger" href="https://gist.github.com/jasonsperske"><i class="fa fa-github-square"></i> Gist</a>
-                    <a class="btn btn-block btn-danger" href="https://www.kickstarter.com/profile/sperske"><i class="fa fa-credit-card"></i> Kickstarter</a>
-                    <a class="btn btn-block btn-danger" href="https://www.linkedin.com/in/jasonsperske"><i class="fa fa-linkedin"></i> LinkedIn</a>
-                    <a class="btn btn-block btn-success" href="http://careers.stackoverflow.com/sperske"><i class="fa fa-paperclip"></i> Résumé</a>
-                  </div>
-                </div>
-              </div>
+            <div class="row d-flex justify-content-center">
+              <h4 class="mb-10">Dodatky postupně vznikají, pracovní verzi najdete na GitHubu...</h4>
             </div>
+      </div>	
+			</section>
+			<!-- End course Area -->
+			
+			<!-- Start testomial Area -->
+			<section class="testomial-area section-gap" id="testimonial">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Co říkají čtenáři?</h1>
+								<p>Zatím nic... Kniha teprve vyjde.</p>
+							</div>
+						</div>
+          </div>					
+          <!--	
+					<div class="row">
+						<div class="active-tstimonial-carusel">
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t1.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t2.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t3.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>	
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t1.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t2.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t3.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>															
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t1.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t2.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>
+							<div class="single-testimonial item">
+								<img class="mx-auto" src="img/t3.png" alt="">
+								<p class="desc">
+									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+								</p>
+								<h4>Mark Alviro Wiens</h4>
+								<p>
+									CEO at Google
+								</p>
+							</div>														
+						</div>
           </div>
-        </div>
+        -->
+				</div>	
+			</section>
+			<!-- End testomial Area -->
+			
 
-        <footer>
-          <p class="text-muted">&copy; Martin Malý 2018, šablona <a href='https://github.com/kristopolous/BOOTSTRA.386'>BOOTSTRA.386 v3</a> od <a href='http://getpostdelete.com/'>Chris McKenzie</a></p>
-      	</footer>
-      </div>
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>O knize</h6>
+								<p>
+									Knihu vydalo sdružení CZ.NIC v roce 2019
+								</p>
+								<p class="footer-text">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</p>								
+							</div>
+						</div>
+						<div class="col-lg-5  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Newsletter</h6>
+								<p>Zůstaňte v obraze</p>
+								<div class="" id="mc_embed_signup">
+									<form target="_blank" novalidate="true" action="https://maly.us5.list-manage.com/subscribe/post?u=b8ed94047dacba313943c10a6&amp;id=5c7e1847f1" method="post" class="form-inline">
+										<input class="form-control" name="EMAIL" placeholder="Váš e-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+			                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+			                            	<div style="position: absolute; left: -5000px;">
+												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+											</div>
 
-      <script>
+										<div class="info"></div>
+									</form>
+								</div>
+							</div>
+						</div>						
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Follow Us</h6>
+								<p>Let us be social</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->	
 
-        var hashChange = function() {
-          var hash = document.location.hash.replace("#","");
-          if (!hash) hash = "home";
-          $("li[data-page]").removeClass("active");
-          $("li[data-page="+hash+"]").addClass("active");
-
-          showPage(hash)
-        }
-
-        var showPage = function(page) {
-          $("div.page").hide();
-          $("div.page[data-page="+page+"]").show()
-          loading()
-        }
-
-        var character = { height: 20, width: 10 };
-        var loading = function() {
-          var
-              onePass = window._386.onePass,
-              speedFactor = 1 / (window._386.speedFactor || 1) * 165000,
-              wrap = document.createElement('div'),
-              bar = wrap.appendChild(document.createElement('div')),
-
-              cursor = document.createElement('div'),
-              // If the user specified that the visibility is hidden, then we
-              // start at the first pass ... otherwise we just do the
-              // cursor fly-by
-              pass =  1,
-              height = $(window).height(),
-              width = $(window).width(),
-
-              // this makes the loading of the screen proportional to the real-estate of the window.
-              // it helps keep the cool sequence there while not making it waste too much time.
-              rounds = (height * width / speedFactor),
-              column = width, row = height - character.height;
-
-            wrap.id = 'wrap386';
-            bar.id = 'bar386';
-            cursor.id = 'cursor386';
-
-            cursor.innerHTML = bar.innerHTML = '&#9604;';
-
-            // only inject the wrap if the pass is 0
-            if (pass === 0) {
-              document.body.appendChild(wrap);
-              document.body.style.visibility = 'visible';
-            } else {
-              document.body.appendChild(cursor);
-              rounds /= 2;
-              character.height *= 4;
-            }
-
-            var ival = setInterval(function () {
-              for (var m = 0; m < rounds; m++) {
-                column -= character.width;
-
-                if (column <= 0) {
-                  column = width;
-                  row -= character.height;
-                }
-                if (row <= 0) {
-                  pass++;
-                  row = height - character.height;
-
-                  if (pass == 2) {
-                    document.body.removeChild(cursor);
-                    clearInterval(ival);
-                  } else {
-                    if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
-                    if (onePass) {
-                      clearInterval(ival);
-                    } else {
-                      document.body.appendChild(cursor);
-                      rounds /= 2;
-                      character.height *= 4;
-                    }
-                  }
-                }
-
-                if (pass === 0) {
-                  bar.style.width = column + 'px';
-                  wrap.style.height = row + 'px';
-                } else {
-                  cursor.style.right = column + 'px';
-                  cursor.style.bottom = row + 'px';
-                }
-              }
-            }, 1);
-          }
-          //loading();
-
-          window.onhashchange = hashChange;
-    
-          hashChange()
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>			
+			<script src="js/parallax.min.js"></script>	
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>			
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
 
 
-      </script>
-    </body>
-</html>
+
