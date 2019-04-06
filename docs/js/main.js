@@ -260,9 +260,17 @@ $(document).ready(function(){
 
 
 
-
-
-
+//ttp
+var release = 1557871200;
+var now = Math.floor(new Date().getTime() / 1000);
+var remain  = Math.floor((release-now) / 3600 / 24);
+var termin = "Koupit knihu";
+if (remain>0) {
+  termin = "Kniha vyjde za "+remain+" dnů";
+  if (remain<5) termin = "Kniha vyjde za "+remain+" dny";
+  if (remain==1) termin = "Kniha vyjde již zítra";
+}
+$("#buybutton").text(termin)
 
 
  });
