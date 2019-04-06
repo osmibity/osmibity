@@ -2925,7 +2925,11 @@ h6 {
 }
 
 .about-generic-area {
-  background: #fff;
+  background: #ddffdd;
+  background-image: -moz-linear-gradient(90deg, #dfd 0%, #efe 100%);
+  background-image: -webkit-linear-gradient(90deg, #dfd 0%, #efe 100%);
+  background-image: -ms-linear-gradient(90deg, #dfd 0%, #efe 100%);
+
 }
 
 .about-generic-area p {
