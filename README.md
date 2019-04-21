@@ -14,4 +14,4 @@ Kniha vzniká jako e-book s licencí CC-BY-NC-ND, tedy s licencí, která vám u
 
 Budu rád, když přispějete na vznik této knihy formou jednorázového či periodického příspěvku. Nezískáte za to nic navíc, jen dobrý pocit, že jste přispěli na vznik něčeho, co vás snad zajímá a baví číst. Všem, kteří se rozhodnou podpořit vznik této elektronické knihy, velmi děkuji!
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cz/cgi-bin/webscr?cmd=_flow&SESSION=a30ji0edjVjKGT6tjwwwAzHVJq6IWdG8qr_0RDu_OPvfVTuYWuUObTz-8My&dispatch=5885d80a13c0db1f8e263663d3faee8db8175432b4df92754f4b4adb5a123d61&rapidsState=Donation__DonationFlow___StateDonationBilling&rapidsStateSignature=af808b3c788744c35a061075bace40989dfbb5af&Z3JncnB0=).
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/malycz).
