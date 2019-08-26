@@ -16,3 +16,5 @@ _Kniha vzniká jako e-book s licencí CC-BY-NC-ND, tedy s licencí, která vám 
 *Budu rád, když přispějete na vznik této knihy formou jednorázového či periodického příspěvku. Nezískáte za to nic navíc, jen dobrý pocit, že jste přispěli na vznik něčeho, co vás snad zajímá a baví číst. Všem, kteří se rozhodnou podpořit vznik této elektronické knihy, velmi děkuji!*
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/malycz).
+
+[![Become a Patron!](https://github.com/omenmicro/omenmicro.eu/blob/master/img/become-a-patron-button.png?raw=true)](https://www.patreon.com/bePatron?u=23689010)
