@@ -1,372 +1,453 @@
-	<!DOCTYPE html>
-	<html lang="cs" class="no-js">
-	<head>
+<!DOCTYPE html>
+<html lang="cs" class="no-js">
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-190512-54"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-190512-54"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-190512-54');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-190512-54");
     </script>
 
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="codepixer">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Porty, bajty, osmibity</title>
+    <!-- Mobile Specific Meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png" />
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer" />
+    <!-- Meta Description -->
+    <meta name="description" content="" />
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="" />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>Porty, bajty, osmibity</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
+      rel="stylesheet"
+    />
+    <!--
 			CSS
 			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-      <style>
-        .myribbon {
-          position: absolute;
-          right: 0px; top: 0px;
-          z-index: 1;
-          overflow: hidden;
-          width: 135px; height: 135px;
-          text-align: right;
-          
-        }
-        .myribbon span {
-          font-size: 21px;
-          font-weight: bold;
-          color: #FFF;
-          text-transform: uppercase;
-          text-align: center;
-          line-height: 29px;
-          transform: rotate(45deg);
-          -webkit-transform: rotate(45deg);
-          width: 200px;
-          display: block;
-          background: #79A70A;
-          background: linear-gradient(#05EFF7 0%, #087F8F 100%);
-          box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
-          position: absolute;
-          top: 41px; right: -44px;
-          cursor:pointer;
-        }
-        
-        .myribbon span::before {
-          content: "";
-          position: absolute; left: 0px; top: 100%;
-          z-index: -1;
-          border-left: 3px solid #087F8F;
-          border-right: 3px solid transparent;
-          border-bottom: 3px solid transparent;
-          border-top: 3px solid #087F8F;
-        }
-        .myribbon span::after {
-          content: "";
-          position: absolute; right: 0px; top: 100%;
-          z-index: -1;
-          border-left: 3px solid transparent;
-          border-right: 3px solid #087F8F;
-          border-bottom: 3px solid transparent;
-          border-top: 3px solid #087F8F;
-        }
-        
-      </style>
-		</head>
-		<body>
+    <link rel="stylesheet" href="css/linearicons.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+      .myribbon {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 1;
+        overflow: hidden;
+        width: 135px;
+        height: 135px;
+        text-align: right;
+      }
+      .myribbon span {
+        font-size: 21px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 29px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        width: 200px;
+        display: block;
+        background: #79a70a;
+        background: linear-gradient(#05eff7 0%, #087f8f 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 41px;
+        right: -44px;
+        cursor: pointer;
+      }
 
-              
+      .myribbon span::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        z-index: -1;
+        border-left: 3px solid #087f8f;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #087f8f;
+      }
+      .myribbon span::after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        z-index: -1;
+        border-left: 3px solid transparent;
+        border-right: 3px solid #087f8f;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #087f8f;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" id="home">
+      <div class="container">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+          </div>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a href="#home">Úvod</a></li>
+              <li><a href="#about">Autor</a></li>
+              <li><a href="#summary">Obsah</a></li>
+              <li><a href="#errata">Errata</a></li>
+              <li><a href="#parts">Součástky</a></li>
+              <li><a href="#addons">Dodatky</a></li>
+              <li><a href="#testimonial">Kniha</a></li>
+              <li>
+                <a href="https://www.asm80.com/"
+                  >Assembler <i class="fas fa-external-link-alt"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://omenmicro.eu/"
+                  >Konstrukce <i class="fas fa-external-link-alt"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://elektrokniha.cz/"
+                  >První díl <i class="fas fa-external-link-alt"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <!-- #nav-menu-container -->
+        </div>
+      </div>
+    </header>
+    <!-- #header -->
 
-			  <header id="header" id="home">
-			    <div class="container">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				      </div>
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="#home">Úvod</a></li>
-				          <li><a href="#about">Autor</a></li>
-				          <li><a href="#summary">Obsah</a></li>
-				          <li><a href="#errata">Errata</a></li>
-				          <li><a href="#parts">Součástky</a></li>
-				          <li><a href="#addons">Dodatky</a></li>
-				          <li><a href="#testimonial">Kniha</a></li>
-				          <li><a href="https://www.asm80.com/">Assembler <i class="fas fa-external-link-alt"></i></a></li>
-				          <li><a href="https://omenmicro.eu/">Konstrukce <i class="fas fa-external-link-alt"></i></a></li>
-                  <li><a href="https://elektrokniha.cz/">První díl <i class="fas fa-external-link-alt"></i></a></li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
+    <!-- start banner Area -->
+    <section class="banner-area" id="home">
+      <div class="container">
+        <div
+          class="row fullscreen d-flex align-items-center justify-content-start"
+        >
+          <div class="banner-content col-lg-7">
+            <h5 class="text-white text-uppercase">Martin Malý</h5>
+            <h1 class="text-uppercase">
+              Porty, bajty, osmibity
+            </h1>
+            <p class="text-white pt-20 pb-20">
+              Jak fungují, jak se navrhují a jak se programují<br />
+              počítače s procesory 8085, 65C02 a 6809
+            </p>
 
+            <p>
+              <a
+                href="https://www.kosmas.cz/knihy/259882/porty-bajty-osmibity/"
+                target="_blank"
+                class="primary-btn text-uppercase"
+                >Koupit na Kosmas.cz</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.knizniklub.cz/knihy/393201-porty-bajty-osmibity-pocitace-na-koleni.html"
+                target="_blank"
+                class="primary-btn text-uppercase"
+                >Koupit na Knizniklub.cz</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.knihcentrum.cz/Kniha/porty-bajty-osmibity"
+                target="_blank"
+                class="primary-btn text-uppercase"
+                >Koupit na Knihcentrum.cz</a
+              >
+            </p>
 
-			<!-- start banner Area -->
-			<section class="banner-area" id="home">	
-				<div class="container">
-					<div class="row fullscreen d-flex align-items-center justify-content-start">
+            <p class="primary-btn text-uppercase">
+              Stáhnout ebook jako:
+              <a href="http://bit.ly/8bt-pdf" target="_blank" class="">pdf</a>
+              &bull;
+              <a href="http://bit.ly/8bt-mobi" target="_blank" class="">mobi</a>
+              &bull;
+              <a href="http://bit.ly/8bt-epub" target="_blank" class="">epub</a>
+            </p>
 
-						<div class="banner-content col-lg-7">
-							<h5 class="text-white text-uppercase">Martin Malý</h5>
-							<h1 class="text-uppercase">
-								Porty, bajty, osmibity				
-							</h1>
-							<p class="text-white pt-20 pb-20">
-                Jak fungují, jak se navrhují a jak se programují<br>
-                počítače s procesory 8085, 65C02 a 6809
-							</p>
-							
-<p><a href="https://www.kosmas.cz/knihy/259882/porty-bajty-osmibity/" target="_blank" class="primary-btn text-uppercase">Koupit na Kosmas.cz</a></p>
-<p><a href="https://www.knizniklub.cz/knihy/393201-porty-bajty-osmibity-pocitace-na-koleni.html" target="_blank" class="primary-btn text-uppercase">Koupit na Knizniklub.cz</a></p>
-<p><a href="https://www.knihcentrum.cz/Kniha/porty-bajty-osmibity" target="_blank" class="primary-btn text-uppercase">Koupit na Knihcentrum.cz</a></p>
-							
-<p class="primary-btn text-uppercase">
-  Stáhnout ebook jako: <a href="http://bit.ly/8bt-pdf" target="_blank" class="">pdf</a> &bull;
-  <a href="http://bit.ly/8bt-mobi" target="_blank" class="">mobi</a> &bull;
-  <a href="http://bit.ly/8bt-epub" target="_blank" class="">epub</a>
-</p>
+            <p>
+              <a href="https://knihy.nic.cz/" target="_blank" class=""
+                >Vydavatel: Edice CZ.NIC</a
+              >
+            </p>
 
-<p><a href="https://knihy.nic.cz/" target="_blank" class="">Vydavatel: Edice CZ.NIC</a></p>
-
-
-				<!--			
+            <!--			
 	<a href="https://knihy.nic.cz/" target="_blank" class="primary-btn text-uppercase" id="buybutton">Koupit</a>
 -->
-						</div>
-						<div class="col-lg-5 banner-right">
-							<img class="img-fluid" src="img/header-img.png" alt="">
-						</div>												
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->	
-
-			<!-- Start about Area -->
-			<section class="section-gap info-area" id="about">
-				<div class="container">				
-					<div class="single-info row mt-40 align-items-center">
-						<div class="col-lg-6 col-md-12 text-center no-padding info-left">
-							<div class="info-thumb">
-								<img src="img/about-img.jpg" class="img-fluid info-img" alt="">
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12 no-padding info-rigth">
-							<div class="info-content">
-								<h2 class="pb-30">Martin Malý</h2>
-								<p>
-                    Martin Malý (známý též pod přezdívkou Arthur Dent či Adent) je český programátor, bloger, publicista a komentátor. 
-                    V roce 2003 naprogramoval a spustil veřejnou blogovací službu Bloguje.cz, od roku 2007 psal pravidelný sloupek 
-                    pro Digiweb - součást webu iHNed.cz. 
-                    Později pracoval na pozici šéfredaktora webového magazínu Zdroják (vydávala společnost Internet Info, s.r.o.). 
-                    V březnu 2013 nastoupil do vydavatelství Economia na pozici vedoucího týmu redakčních vývojářů iHNed.cz, 
-                    kam se v roce 2017 vrátil na pozicizástupce šéfredaktora iHNed pro inovace.
-                </p><p>
-                    Od roku 2015 popularizuje Internet věcí a DIY elektroniku, přednáší o těchto oborech a školí zájemce o platformu Arduino.
-                    Za svou popularizační činnost byl v roce 2016 nominován v anketě Křišťálová Lupa, v kategorii One (wo)man show. 
-                    V roce 2018 vydal ve spolupráci s vydavatelstvím Edice CZ.NIC knihu <a href="https://elektrokniha.cz/">Hradla, volty, jednočipy - úvod do bastlení</a>.
-                  </p><p>                     
-                    Elektronika je jeho koníčkem už od dětství. Nejraději má staré osmibitové počítače z osmdesátých let 20. století – 
-                    vlastní jich několik desítek a stále je jimi fascinován natolik, že si staví jejich repliky a programuje jejich emulátory. 
-                    Ve spolupráci se sdružením CZ.NIC přednáší v kurzu „Arduino pro učitele“.
-                </p>
-                <div class="button-group-area mt-40">
-                    <a href="https://github.com/osmibity/" class="genric-btn default circle ">GitHub <i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/retrocip/" class="genric-btn primary circle">Twitter <i class="fab fa-twitter"></i></a>
-                    <a href="#" class="genric-btn success circle">Facebook <i class="fab fa-facebook"></i></a>
-                    <a href="" class="genric-btn info circle">LinkedIn <i class="fab fa-linkedin"></i></a>
-                </div>
-                </div>
-						</div>
-					</div>
-				</div>
-			</section>
-      <!-- End about Area -->
-      
-      			<!-- Start call-to-action Area -->
-			<section class="call-to-action-area section-gap" id="summary">
-          <div class="container">
-            <div class="row justify-content-center top">
-              <div class="col-lg-12">
-                <h1 class="text-white text-center">Obsah</h1>
-              </div>
-            </div>
-            <div class="row top justify-content-center">
-                <ul class="unordered-list text-white">
-                  <li>Slavné osmibity z 80. let</li>
-                  <li>Osmibitové procesory</li>
-                  <li>Konstrukce počítačů</li>
-                  <li>Periferie</li>
-                  <li>Osmibitové počítače OMEN
-                    <ul>
-                      <li>OMEN Alpha
-                        <ul>
-                          <li>Architektura 8080</li>
-                          <li>Architektura 8085</li>
-                          <li>Návrh jednodeskového počítače</li>
-                          <li>Sériové rozhraní 6850, paralelní rozhraní 8255</li>
-                          <li>Programování v assembleru 8085</li>
-                        </ul>
-                      </li>
-                      <li>OMEN Bravo
-                        <ul>
-                          <li>Architektura 65C02</li>
-                          <li>Návrh jednodeskového počítače</li>
-                          <li>Sériové rozhraní 6551, paralelní rozhraní 6522</li>
-                          <li>Programování v assembleru 65C02</li>
-                        </ul>
-                      </li>
-                      <li>OMEN Charlie
-                          <ul>
-                            <li>Emulace osmibitu pomocí Arduina</li>
-                          </ul>
-                        </li>
-                        <li>OMEN Delta
-                            <ul>
-                              <li>Architektura Z80</li>
-                              <li>Koncepce počítače</li>
-                            </ul>
-                        </li>
-                        <li>OMEN Kilo
-                            <ul>
-                              <li>Architektura 6809</li>
-                              <li>Návrh jednodeskového počítače</li>
-                              <li>Programování v assembleru 6809</li>
-                            </ul>
-                          </li>  
-                    </ul>
-                  </li>
-                  <li>Jak se generuje zvuk</li>
-                  <li>Jak se generuje obraz</li>
-                  <li>Jak se vyrovnat s nadbytkem paměti</li>
-                </ul>
-              </div>
-          </div>	
-        </section>
-        <!-- End call-to-action Area -->
-		
-			<!-- Start errata Area -->
-			<section class="price-area section-gap" id="errata">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Opravy</h1>
-								<p>Pro případ, že by v knize byla i přes veškerou péči nějaká nepřesnost.</p>
-							</div>
-						</div>
-          </div>						
+          </div>
+          <div class="col-lg-5 banner-right">
+            <img class="img-fluid" src="img/header-img.png" alt="" />
+          </div>
         </div>
-			</section>
-			<!-- End price Area -->
+      </div>
+    </section>
+    <!-- End banner Area -->
 
-			<!-- Start parts Area -->
-			<section class="fact-area relative section-gap" id="parts">
-          <div class="overlay overlay-bg"></div>
-          <div class="container">
-            <div class="row d-flex justify-content-center">
-              <div class="menu-content pb-40 col-lg-8">
-                <div class="title text-center">
-                  <h1 class="mb-10">Sady součástek a desky plošných spojů</h1>
-                  <div class="button-group-area mt-40">
-                      <p>Omezené množství má k dispozici autor.</p>
-                      <a href="https://aukro.cz/uzivatel/mmaly2/nabidky" class="genric-btn default circle">Aukro <i class="fas fa-shopping-cart"></i></a>
-                      <a href="https://www.tindie.com/stores/omenmicro/" class="genric-btn default circle">Tindie <i class="fas fa-shopping-cart"></i></a>
-                  </div>
-
-                  <div class="button-group-area mt-40">
-                      <p>Můžete využít následujících nákupních seznamů</p>
-                      <a href="https://alitronik.com/tag/omen/" class="genric-btn default circle">AliExpress <i class="fab fa-alipay"></i></a>
-                      <a href="https://alitronik.com/tag/omen-ebay/" class="genric-btn default circle">eBay <i class="fab fa-ebay"></i></a>
-                  </div>
-
-                  <div class="button-group-area mt-40">
-                      <p>Chcete si nechat vyrobit plošné spoje? (výrobce <a href="https://www.pcbway.com/setinvite.aspx?inviteid=91830">PCBWay</a>)</p>
-                      <a href="https://www.pcbway.com/project/member/?bmbno=W206155B" class="genric-btn default circle">PCBWay <i class="fas fa-industry"></i></i></a>
-                  </div>
-
-
-                </div>
+    <!-- Start about Area -->
+    <section class="section-gap info-area" id="about">
+      <div class="container">
+        <div class="single-info row mt-40 align-items-center">
+          <div class="col-lg-6 col-md-12 text-center no-padding info-left">
+            <div class="info-thumb">
+              <img src="img/about-img.jpg" class="img-fluid info-img" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 no-padding info-rigth">
+            <div class="info-content">
+              <h2 class="pb-30">Martin Malý</h2>
+              <p>
+                Martin Malý (známý též pod přezdívkou Arthur Dent či Adent) je
+                český programátor, bloger, publicista a komentátor. V roce 2003
+                naprogramoval a spustil veřejnou blogovací službu Bloguje.cz, od
+                roku 2007 psal pravidelný sloupek pro Digiweb - součást webu
+                iHNed.cz. Později pracoval na pozici šéfredaktora webového
+                magazínu Zdroják (vydávala společnost Internet Info, s.r.o.). V
+                březnu 2013 nastoupil do vydavatelství Economia na pozici
+                vedoucího týmu redakčních vývojářů iHNed.cz, kam se v roce 2017
+                vrátil na pozicizástupce šéfredaktora iHNed pro inovace.
+              </p>
+              <p>
+                Od roku 2015 popularizuje Internet věcí a DIY elektroniku,
+                přednáší o těchto oborech a školí zájemce o platformu Arduino.
+                Za svou popularizační činnost byl v roce 2016 nominován v anketě
+                Křišťálová Lupa, v kategorii One (wo)man show. V roce 2018 vydal
+                ve spolupráci s vydavatelstvím Edice CZ.NIC knihu
+                <a href="https://elektrokniha.cz/"
+                  >Hradla, volty, jednočipy - úvod do bastlení</a
+                >.
+              </p>
+              <p>
+                Elektronika je jeho koníčkem už od dětství. Nejraději má staré
+                osmibitové počítače z osmdesátých let 20. století – vlastní jich
+                několik desítek a stále je jimi fascinován natolik, že si staví
+                jejich repliky a programuje jejich emulátory. Ve spolupráci se
+                sdružením CZ.NIC přednáší v kurzu „Arduino pro učitele“.
+              </p>
+              <div class="button-group-area mt-40">
+                <a
+                  href="https://github.com/osmibity/"
+                  class="genric-btn default circle"
+                  >GitHub <i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://twitter.com/retrocip/"
+                  class="genric-btn primary circle"
+                  >Twitter <i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="genric-btn success circle"
+                  >Facebook <i class="fab fa-facebook"></i
+                ></a>
+                <a href="" class="genric-btn info circle"
+                  >LinkedIn <i class="fab fa-linkedin"></i
+                ></a>
               </div>
-            </div>						
-          </div>	
-        </section>
-        <!-- End fact Area -->      
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about Area -->
 
-			<!-- Start addons Area -->
-			<section class="course-area section-gap" id="addons">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-9">
-							<div class="title text-center">
-								<h1 class="mb-10">Čipy, data, procesory</h1>
-								<h2 class="mb-10">Dodatky</h2>
-								<p>Co se do knihy nevešlo a bylo by škoda to vynechat...</p>
-							</div>
-						</div>
-          </div>				
-          <div class="row top justify-content-center">
-              <ul class="unordered-list list-unstyled">
-                <li>Krystalové oscilátory</li>
-                <li>Jak naprogramovat EEPROM v počítači</li>
-                <li>Sériové terminály<ul>
-                  <li>K televizi z jednočipu</li>
-                  <li>Z Raspberry Pi přes HDMI</li>
-                </ul></li>
-                <li>FPGA</li>
-                <li>VHDL</li>
-                <li>OMEN Alpha ve FPGA</li>
-                <li>OMEN Foxtrot (FPGA)<ul>
-                  <li>Generování VGA</li>
-                  <li>Čtení PS/2 klávesnice</li>
-                  <li>Konstrukce</li>
-                </ul></li>
-                <li>Mikroprocesor CHIP8 - virtuální a přenositelný</li>
-                <li>Vlastní mikroprocesor ve VHDL</li>
-                <li>Z historie mikroprocesorů</li>
-                <li>Procesor 6309 - vylepšený 6809<ul>
-                  <li>Co bylo přidáno</li>
-                  <li>Jak se programuje</li>
-                </ul></li>
-                <li>Procesor 65816 - 6502 v šestnácti bitech<ul>
-                    <li>Co bylo přidáno</li>
-                    <li>Jak se programuje</li>
-                  </ul></li>
-                <li>... a další témata</li>
+    <!-- Start call-to-action Area -->
+    <section class="call-to-action-area section-gap" id="summary">
+      <div class="container">
+        <div class="row justify-content-center top">
+          <div class="col-lg-12">
+            <h1 class="text-white text-center">Obsah</h1>
+          </div>
+        </div>
+        <div class="row top justify-content-center">
+          <ul class="unordered-list text-white">
+            <li>Slavné osmibity z 80. let</li>
+            <li>Osmibitové procesory</li>
+            <li>Konstrukce počítačů</li>
+            <li>Periferie</li>
+            <li>
+              Osmibitové počítače OMEN
+              <ul>
+                <li>
+                  OMEN Alpha
+                  <ul>
+                    <li>Architektura 8080</li>
+                    <li>Architektura 8085</li>
+                    <li>Návrh jednodeskového počítače</li>
+                    <li>Sériové rozhraní 6850, paralelní rozhraní 8255</li>
+                    <li>Programování v assembleru 8085</li>
+                  </ul>
+                </li>
+                <li>
+                  OMEN Bravo
+                  <ul>
+                    <li>Architektura 65C02</li>
+                    <li>Návrh jednodeskového počítače</li>
+                    <li>Sériové rozhraní 6551, paralelní rozhraní 6522</li>
+                    <li>Programování v assembleru 65C02</li>
+                  </ul>
+                </li>
+                <li>
+                  OMEN Charlie
+                  <ul>
+                    <li>Emulace osmibitu pomocí Arduina</li>
+                  </ul>
+                </li>
+                <li>
+                  OMEN Delta
+                  <ul>
+                    <li>Architektura Z80</li>
+                    <li>Koncepce počítače</li>
+                  </ul>
+                </li>
+                <li>
+                  OMEN Kilo
+                  <ul>
+                    <li>Architektura 6809</li>
+                    <li>Návrh jednodeskového počítače</li>
+                    <li>Programování v assembleru 6809</li>
+                  </ul>
+                </li>
               </ul>
-            </div>
-            <div class="row d-flex justify-content-center">
-              <h4 class="mb-10">Dodatky postupně vznikají, ale můžete si stáhnout <a href="./addons.html">aktuální verzi rukopisu</a>...</h4>
-		                    <div class="col-lg-6 ">
+            </li>
+            <li>Jak se generuje zvuk</li>
+            <li>Jak se generuje obraz</li>
+            <li>Jak se vyrovnat s nadbytkem paměti</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End call-to-action Area -->
 
-                  <p>
-                      <a href="https://www.patreon.com/bePatron?u=23689010" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-                    </p>
-                </div>
-
+    <!-- Start errata Area -->
+    <section class="price-area section-gap" id="errata">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-8">
+            <div class="title text-center">
+              <h1 class="mb-10">Opravy</h1>
+              <p>
+                Pro případ, že by v knize byla i přes veškerou péči nějaká
+                nepřesnost.
+              </p>
             </div>
-					
-        </div>	
-			</section>
-			<!-- End course Area -->
-      
-			<!-- Start Generic Area -->
-      <!--
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End price Area -->
+
+    <!-- Start parts Area -->
+    <section class="fact-area relative section-gap" id="parts">
+      <div class="overlay overlay-bg"></div>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-40 col-lg-8">
+            <div class="title text-center">
+              <h1 class="mb-10">Sady součástek a desky plošných spojů</h1>
+              <div class="button-group-area mt-40">
+                <p>Omezené množství má k dispozici autor.</p>
+                <a
+                  href="https://aukro.cz/uzivatel/mmaly2/nabidky"
+                  class="genric-btn default circle"
+                  >Aukro <i class="fas fa-shopping-cart"></i
+                ></a>
+                <a
+                  href="https://www.tindie.com/stores/omenmicro/"
+                  class="genric-btn default circle"
+                  >Tindie <i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+
+              <div class="button-group-area mt-40">
+                <p>Můžete využít následujících nákupních seznamů</p>
+                <a
+                  href="https://alitronik.com/tag/omen/"
+                  class="genric-btn default circle"
+                  >AliExpress <i class="fab fa-alipay"></i
+                ></a>
+                <a
+                  href="https://alitronik.com/tag/omen-ebay/"
+                  class="genric-btn default circle"
+                  >eBay <i class="fab fa-ebay"></i
+                ></a>
+              </div>
+
+              <div class="button-group-area mt-40">
+                <p>
+                  Chcete si nechat vyrobit plošné spoje? (výrobce
+                  <a href="https://www.pcbway.com/setinvite.aspx?inviteid=91830"
+                    >PCBWay</a
+                  >)
+                </p>
+                <a
+                  href="https://www.pcbway.com/project/member/?bmbno=W206155B"
+                  class="genric-btn default circle"
+                  >PCBWay <i class="fas fa-industry"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End fact Area -->
+
+    <!-- Start addons Area -->
+    <section class="course-area section-gap" id="addons">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-9">
+            <div class="title text-center">
+              <h1 class="mb-10">Data, čipy, procesory</h1>
+              <h2 class="mb-10">FPGA na koleni</h2>
+              <p>Vlastní systémy s FPGA v jazyce VHDL...</p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <h4 class="mb-10">
+            <a href="https://datacipy.cz">Třetí kniha je hotová</a>, vyjde na
+            podzim 2020...
+          </h4>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End course Area -->
+
+    <!-- Start Generic Area -->
+    <!--
 			<section class="about-generic-area section-gap">
           <div class="container border-top-generic">
             <h3 class="about-title mb-30">Podpořte e-book Čipy, data, procesory!</h3>
@@ -437,25 +518,40 @@
           </div>
         </section>
       -->
-        <!-- End Generic Start -->	      
+    <!-- End Generic Start -->
 
-			<!-- Start testomial Area -->
-			<section class="testomial-area section-gap" id="testimonial">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Co říkají čtenáři?</h1>
-								<p>Zatím nic... Kniha právě vyšla.</p>
-                <h2>Napsali o knize</h2>
-                <p><a href="https://www.root.cz/zpravicky/porty-bajty-osmibity-nova-kniha-martina-maleho-ke-stazeni-zdarma/#newIndex1">Root.cz</a>, <a href="https://www.lupa.cz/aktuality/vychazi-kniha-porty-bajty-osmibity-od-martina-maleho-e-book-je-ke-stazeni-zdarma/">Lupa.cz</a>,
-                  <a href="https://www.high-voltage.cz/sortky/vysla-kniha-porty-bajty-osmibity/">High-Voltage.cz</a>,
-                  <!--<a href="http://www.abclinuxu.cz/zpravicky/porty-bajty-osmibity-edice-cz.nic">ABC Linuxu</a>,-->
-                  <a href="https://pc.poradna.net/flashes/2913859-zapiste-si-do-kalendaru-patnacteho-kvetna-vychazi-porty-bajty-osmibity">PC Poradna</a>
-							</div>
-						</div>
-          </div>					
-          <!--	
+    <!-- Start testomial Area -->
+    <section class="testomial-area section-gap" id="testimonial">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-8">
+            <div class="title text-center">
+              <h1 class="mb-10">Co říkají čtenáři?</h1>
+              <p>Zatím nic... Kniha právě vyšla.</p>
+              <h2>Napsali o knize</h2>
+              <p>
+                <a
+                  href="https://www.root.cz/zpravicky/porty-bajty-osmibity-nova-kniha-martina-maleho-ke-stazeni-zdarma/#newIndex1"
+                  >Root.cz</a
+                >,
+                <a
+                  href="https://www.lupa.cz/aktuality/vychazi-kniha-porty-bajty-osmibity-od-martina-maleho-e-book-je-ke-stazeni-zdarma/"
+                  >Lupa.cz</a
+                >,
+                <a
+                  href="https://www.high-voltage.cz/sortky/vysla-kniha-porty-bajty-osmibity/"
+                  >High-Voltage.cz</a
+                >,
+                <!--<a href="http://www.abclinuxu.cz/zpravicky/porty-bajty-osmibity-edice-cz.nic">ABC Linuxu</a>,-->
+                <a
+                  href="https://pc.poradna.net/flashes/2913859-zapiste-si-do-kalendaru-patnacteho-kvetna-vychazi-porty-bajty-osmibity"
+                  >PC Poradna</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--	
 					<div class="row">
 						<div class="active-tstimonial-carusel">
 							<div class="single-testimonial item">
@@ -551,58 +647,91 @@
 						</div>
           </div>
         -->
-				</div>	
-			</section>
-			<!-- End testomial Area -->
+      </div>
+    </section>
+    <!-- End testomial Area -->
 
-      <section style="background:black">
-        <div class=container style="background:black">
+    <section style="background: black;">
+      <div class="container" style="background: black;">
         <div class="row d-flex justify-content-center">
           <div class="col-12">
-        <iframe width="1120" height="630" src="https://www.youtube.com/embed/lGMmkewJbuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              width="1120"
+              height="630"
+              src="https://www.youtube.com/embed/lGMmkewJbuE"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      </section>
-			
+    </section>
 
-			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="single-footer-widget">
-								<h6>O knize</h6>
-								<p>
-									Knihu vydalo sdružení CZ.NIC v roce 2019
-								</p>
-								<p class="footer-text">
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Zůstaňte v obraze</p>
-								<div class="" id="mc_embed_signup">
-									<form target="_blank" novalidate="true" action="https://maly.us5.list-manage.com/subscribe/post?u=b8ed94047dacba313943c10a6&amp;id=5c7e1847f1" method="post" class="form-inline">
-										<input class="form-control" name="EMAIL" placeholder="Váš e-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-			                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-			                            	<div style="position: absolute; left: -5000px;">
-												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-											</div>
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="single-footer-widget">
+              <h6>O knize</h6>
+              <p>
+                Knihu vydalo sdružení CZ.NIC v roce 2019
+              </p>
+              <p class="footer-text">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>Newsletter</h6>
+              <p>Zůstaňte v obraze</p>
+              <div class="" id="mc_embed_signup">
+                <form
+                  target="_blank"
+                  novalidate="true"
+                  action="https://maly.us5.list-manage.com/subscribe/post?u=b8ed94047dacba313943c10a6&amp;id=5c7e1847f1"
+                  method="post"
+                  class="form-inline"
+                >
+                  <input
+                    class="form-control"
+                    name="EMAIL"
+                    placeholder="Váš e-mail"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter Email '"
+                    required=""
+                    type="email"
+                  />
+                  <button class="click-btn btn btn-default">
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  </button>
+                  <div style="position: absolute; left: -5000px;">
+                    <input
+                      name="b_36c4fd991d266f23781ded980_aefe40901a"
+                      tabindex="-1"
+                      value=""
+                      type="text"
+                    />
+                  </div>
 
-										<div class="info"></div>
-									</form>
-								</div>
-							</div>
-            </div>			
-            
-						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-              <!--
+                  <div class="info"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+            <!--
 							<div class="single-footer-widget">
 								<h6>Follow Us</h6>
 								<p>Let us be social</p>
@@ -611,33 +740,50 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                   </div>
               </div>
             -->
-            </div>	
-            									
-					</div>
-				</div>
-			</footer>	
-			<!-- End footer Area -->	
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer Area -->
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>			
-			<script src="js/jquery.sticky.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>			
-			<script src="js/parallax.min.js"></script>	
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>			
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-      <script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us5.list-manage.com","uuid":"b8ed94047dacba313943c10a6","lid":"5c7e1847f1","uniqueMethods":true}) })</script>
-		</body>
-	</html>
-
-
-
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"
+    ></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      data-dojo-config="usePlainJson: true, isDebug: false"
+    ></script>
+    <script type="text/javascript">
+      window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+          baseUrl: "mc.us5.list-manage.com",
+          uuid: "b8ed94047dacba313943c10a6",
+          lid: "5c7e1847f1",
+          uniqueMethods: true,
+        });
+      });
+    </script>
+  </body>
+</html>
